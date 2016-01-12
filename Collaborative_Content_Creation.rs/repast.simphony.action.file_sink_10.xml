@@ -1,0 +1,15 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>Article NonAggr File Sink</name>
+  <dataSet>Article NonAggr Data Set</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>ClusteringCoefficientOfArticle</string>
+    <string>PathlengthOfArticle</string>
+    <string>run</string>
+    <string>random_seed</string>
+  </sourceIds>
+  <fileName>/Users/ersantasan/Desktop/Ciktilar_wikipedia_agent_based/ArticleNonAggrValues.txt</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

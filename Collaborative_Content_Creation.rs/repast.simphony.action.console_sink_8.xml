@@ -1,0 +1,17 @@
+<repast.simphony.data2.engine.ConsoleSinkDescriptor>
+  <name>User Aggr Console Sink</name>
+  <dataSet>User Aggr Data Set</dataSet>
+  <delimiter>,</delimiter>
+  <format>LINE</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>Affiliation Total Edge Count</string>
+    <string>User Total Edge Count</string>
+    <string>Affl Mean Edge</string>
+    <string>User Mean Edge</string>
+    <string>run</string>
+    <string>random_seed</string>
+  </sourceIds>
+  <enabled>true</enabled>
+  <outputStream>OUT</outputStream>
+</repast.simphony.data2.engine.ConsoleSinkDescriptor>

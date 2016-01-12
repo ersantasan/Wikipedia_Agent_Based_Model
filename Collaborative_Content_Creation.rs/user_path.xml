@@ -1,0 +1,6 @@
+<model name="Collaborative_Content_Creation">
+	<classpath>
+		<agents path="../bin" />
+		<entry path="../lib" />
+	</classpath>
+</model>

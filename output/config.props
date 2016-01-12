@@ -1,0 +1,9 @@
+model.archive = /Users/ersantasan/Documents/workspace_RePast_mis_lab/Collaborative_Content_Creation/output/complete_model.jar
+batch.params.file = scenario.rs/batch_params.xml
+ssh.key_dir = /Users/ersantasan/.ssh
+poll.frequency = 60.0
+model.output = /Users/ersantasan/Documents/workspace_RePast_mis_lab/Collaborative_Content_Creation/output
+
+vm.arguments = -Xmx512M
+local.0.instances = 2
+local.0.working_directory = /var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/

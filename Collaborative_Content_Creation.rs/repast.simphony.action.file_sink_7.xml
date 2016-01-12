@@ -1,0 +1,16 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>User Edge Count File Sink</name>
+  <dataSet>User NonAggr Data Set</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>UserEdgeCount</string>
+    <string>UserNeighbourAverageEdgeCount</string>
+    <string>AffiliationEdgeCountOfUser</string>
+    <string>run</string>
+    <string>random_seed</string>
+  </sourceIds>
+  <fileName>/Users/ersantasan/Desktop/Ciktilar_wikipedia_agent_based/UserEdgeCount.txt</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

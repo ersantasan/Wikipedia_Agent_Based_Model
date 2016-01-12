@@ -1,0 +1,63 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>Article NonAggr Data Set</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>Collaborative_Content_Creation.Article</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>true</inclBatchRun>
+  <inclRandomSeed>true</inclRandomSeed>
+  <scheduleParams>
+    <start>10.0</start>
+    <interval>10.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-544320822</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>AffiliationEdgeCountOfArticle</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>AffiliationEdgeCountOfArticle</id>
+        <className>Collaborative_Content_Creation.Article</className>
+        <methodName>getAffiliationEdgeCountOfArticle</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>ArticleEdgeCount</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>ArticleEdgeCount</id>
+        <className>Collaborative_Content_Creation.Article</className>
+        <methodName>getArticleEdgeCount</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>ArticleNeighbourAverageEdgeCount</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>ArticleNeighbourAverageEdgeCount</id>
+        <className>Collaborative_Content_Creation.Article</className>
+        <methodName>getArticleNeighbourAverageEdgeCount</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>ClusteringCoefficientOfArticle</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>ClusteringCoefficientOfArticle</id>
+        <className>Collaborative_Content_Creation.Article</className>
+        <methodName>getClusteringCoefficientOfArticle</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>PathlengthOfArticle</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>PathlengthOfArticle</id>
+        <className>Collaborative_Content_Creation.Article</className>
+        <methodName>getPathlengthOfArticle</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

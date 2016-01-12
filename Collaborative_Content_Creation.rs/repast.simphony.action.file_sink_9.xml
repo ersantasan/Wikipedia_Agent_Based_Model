@@ -1,0 +1,18 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>Article Aggr File Sink</name>
+  <dataSet>Article Aggr Data Set</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>Article Affiliation Edge Count Sum</string>
+    <string>Article Affiliation Edge Count Mean</string>
+    <string>Article Article Edge Count Sum</string>
+    <string>Article Article Edge Count Mean</string>
+    <string>run</string>
+    <string>art</string>
+    <string>neigh</string>
+  </sourceIds>
+  <fileName>/Users/ersantasan/Desktop/Ciktilar_wikipedia_agent_based/ArticleAggrValues.txt</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

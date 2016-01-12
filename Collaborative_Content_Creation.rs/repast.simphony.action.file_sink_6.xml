@@ -1,0 +1,15 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>User NonAggr File Sink</name>
+  <dataSet>User NonAggr Data Set</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>ClusteringCoefficientOfUser</string>
+    <string>PathlengthOfUser</string>
+    <string>run</string>
+    <string>random_seed</string>
+  </sourceIds>
+  <fileName>/Users/ersantasan/Desktop/Ciktilar_wikipedia_agent_based/UserNonAggrValues.txt</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

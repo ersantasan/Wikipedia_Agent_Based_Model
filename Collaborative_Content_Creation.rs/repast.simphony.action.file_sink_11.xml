@@ -1,0 +1,16 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>Article Edge Count File Sink</name>
+  <dataSet>Article NonAggr Data Set</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>AffiliationEdgeCountOfArticle</string>
+    <string>ArticleEdgeCount</string>
+    <string>ArticleNeighbourAverageEdgeCount</string>
+    <string>run</string>
+    <string>random_seed</string>
+  </sourceIds>
+  <fileName>/Users/ersantasan/Desktop/Ciktilar_wikipedia_agent_based/ArticleEdgeCount.txt</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

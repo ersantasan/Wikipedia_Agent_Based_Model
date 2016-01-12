@@ -1,0 +1,63 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>User NonAggr Data Set</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>Collaborative_Content_Creation.User</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>true</inclBatchRun>
+  <inclRandomSeed>true</inclRandomSeed>
+  <scheduleParams>
+    <start>10.0</start>
+    <interval>15.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-1250783412</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>ClusteringCoefficientOfUser</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>ClusteringCoefficientOfUser</id>
+        <className>Collaborative_Content_Creation.User</className>
+        <methodName>getClusteringCoefficientOfUser</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>PathlengthOfUser</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>PathlengthOfUser</id>
+        <className>Collaborative_Content_Creation.User</className>
+        <methodName>getPathlengthOfUser</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>AffiliationEdgeCountOfUser</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>AffiliationEdgeCountOfUser</id>
+        <className>Collaborative_Content_Creation.User</className>
+        <methodName>getAffiliationEdgeCountOfUser</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>UserEdgeCount</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>UserEdgeCount</id>
+        <className>Collaborative_Content_Creation.User</className>
+        <methodName>getUserEdgeCount</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>UserNeighbourAverageEdgeCount</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>UserNeighbourAverageEdgeCount</id>
+        <className>Collaborative_Content_Creation.User</className>
+        <methodName>getUserNeighbourAverageEdgeCount</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

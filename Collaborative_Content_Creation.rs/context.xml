@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<context xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Collaborative_Content_Creation"
+	xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context" xmlns="">
+
+	
+	
+	<projection id="space" type="continuous space" />
+	<projection id="grid" type="grid" />
+	<projection id="collaboration_network" type="network" />
+	<projection id="user_network" type="network" />
+	<projection id="article_network" type="network" />
+	
+	
+
+</context>

@@ -1,0 +1,169 @@
+INFO  [Thread-1] 2014-07-29 20:55:55,741 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-1] 2014-07-29 20:55:55,742 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+INFO  [Thread-1] 2014-07-29 20:55:55,742 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-1] 2014-07-29 20:55:55,742 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-1] 2014-07-29 20:55:55,743 repast.simphony.batch.ssh.LocalSession - 	at java.lang.Thread.run(Thread.java:745)
+INFO  [Thread-1] 2014-07-29 20:55:55,743 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.reflect.InvocationTargetException
+INFO  [Thread-1] 2014-07-29 20:55:55,743 repast.simphony.batch.ssh.LocalSession - 	at Collaborative_Content_Creation.User$$FastClassByCGLIB$$80cbf24a.invoke(<generated>)
+INFO  [Thread-1] 2014-07-29 20:55:55,743 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-1] 2014-07-29 20:55:55,744 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.MethodDataSource.get(MethodDataSource.java:97)
+INFO  [Thread-1] 2014-07-29 20:55:55,744 repast.simphony.batch.ssh.LocalSession - 	... 8 more
+INFO  [Thread-1] 2014-07-29 20:55:55,744 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.NoClassDefFoundError: repast/simphony/jung/statistics/RepastJungGraphStatistics
+INFO  [Thread-1] 2014-07-29 20:55:55,744 repast.simphony.batch.ssh.LocalSession - 	at Collaborative_Content_Creation.User.getClusteringCoefficientOfUser(User.java:202)
+INFO  [Thread-1] 2014-07-29 20:55:55,745 repast.simphony.batch.ssh.LocalSession - 	... 11 more
+INFO  [Thread-1] 2014-07-29 20:55:55,745 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.ClassNotFoundException: repast.simphony.jung.statistics.RepastJungGraphStatistics
+INFO  [Thread-1] 2014-07-29 20:55:55,745 repast.simphony.batch.ssh.LocalSession - 	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+INFO  [Thread-1] 2014-07-29 20:55:55,746 repast.simphony.batch.ssh.LocalSession - 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+INFO  [Thread-1] 2014-07-29 20:55:55,746 repast.simphony.batch.ssh.LocalSession - 	at java.security.AccessController.doPrivileged(Native Method)
+INFO  [Thread-1] 2014-07-29 20:55:55,746 repast.simphony.batch.ssh.LocalSession - 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+INFO  [Thread-1] 2014-07-29 20:55:55,746 repast.simphony.batch.ssh.LocalSession - 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+INFO  [Thread-1] 2014-07-29 20:55:55,746 repast.simphony.batch.ssh.LocalSession - 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+INFO  [Thread-1] 2014-07-29 20:55:55,747 repast.simphony.batch.ssh.LocalSession - 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+INFO  [Thread-1] 2014-07-29 20:55:55,747 repast.simphony.batch.ssh.LocalSession - 	... 12 more
+INFO  [AWT-EventQueue-0] 2014-07-29 21:21:19,851 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/ersantasan/Documents/workspace_RePast_mis_lab/Collaborative_Content_Creation/output/config.props
+INFO  [AWT-EventQueue-0] 2014-07-29 21:21:20,011 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	/Users/ersantasan/Documents/workspace_RePast_mis_lab/Collaborative_Content_Creation/batch/batch_params.xml to
+	/var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/unrolledParamFile.txt
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-29 21:21:31,418 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally /var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/ersantasan_localhost7255176678678875986.zip to 
+/var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/simphony_model_1406658087976 ...
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-29 21:21:31,658 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-29 21:21:31,731 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0614
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-29 21:21:31,732 repast.simphony.batch.ssh.LocalSession - Unzipping model /var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/simphony_model_1406658087976/ersantasan_localhost7255176678678875986.zip
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-29 21:21:32,372 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-1] 2014-07-29 21:22:00,967 repast.simphony.batch.ssh.LocalSession - tick: 1.0, Affiliation Total Edge Count: 699.0, User Total Edge Count: 663.0, run: 1, random_seed: -2091152668
+INFO  [Thread-1] 2014-07-29 21:22:01,120 repast.simphony.batch.ssh.LocalSession - tick: 2.0, Affiliation Total Edge Count: 1028.0, User Total Edge Count: 1239.0, run: 1, random_seed: -2091152668
+INFO  [Thread-1] 2014-07-29 21:22:01,241 repast.simphony.batch.ssh.LocalSession - tick: 3.0, Affiliation Total Edge Count: 1290.0, User Total Edge Count: 1833.0, run: 1, random_seed: -2091152668
+INFO  [Thread-1] 2014-07-29 21:22:01,359 repast.simphony.batch.ssh.LocalSession - tick: 4.0, Affiliation Total Edge Count: 1518.0, User Total Edge Count: 2416.0, run: 1, random_seed: -2091152668
+INFO  [Thread-1] 2014-07-29 21:22:01,442 repast.simphony.batch.ssh.LocalSession - tick: 5.0, Affiliation Total Edge Count: 1694.0, User Total Edge Count: 2837.0, run: 1, random_seed: -2091152668
+INFO  [Thread-1] 2014-07-29 21:22:01,518 repast.simphony.batch.ssh.LocalSession - tick: 6.0, Affiliation Total Edge Count: 1850.0, User Total Edge Count: 3303.0, run: 1, random_seed: -2091152668
+INFO  [Thread-1] 2014-07-29 21:22:01,584 repast.simphony.batch.ssh.LocalSession - tick: 7.0, Affiliation Total Edge Count: 1989.0, User Total Edge Count: 3685.0, run: 1, random_seed: -2091152668
+INFO  [Thread-1] 2014-07-29 21:22:01,642 repast.simphony.batch.ssh.LocalSession - tick: 8.0, Affiliation Total Edge Count: 2090.0, User Total Edge Count: 3915.0, run: 1, random_seed: -2091152668
+INFO  [Thread-1] 2014-07-29 21:22:01,704 repast.simphony.batch.ssh.LocalSession - tick: 9.0, Affiliation Total Edge Count: 2190.0, User Total Edge Count: 4119.0, run: 1, random_seed: -2091152668
+INFO  [Thread-1] 2014-07-29 21:22:01,763 repast.simphony.batch.ssh.LocalSession - FATAL [Thread-0] 21:22:01,758 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+INFO  [Thread-1] 2014-07-29 21:22:01,763 repast.simphony.batch.ssh.LocalSession - Current tick (10.0)
+INFO  [Thread-1] 2014-07-29 21:22:01,763 repast.simphony.batch.ssh.LocalSession - repast.simphony.data2.DataException: Error invoking method on object
+INFO  [Thread-1] 2014-07-29 21:22:01,764 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.MethodDataSource.get(MethodDataSource.java:99)
+INFO  [Thread-1] 2014-07-29 21:22:01,764 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.NonAggregateDataSet.record(NonAggregateDataSet.java:78)
+INFO  [Thread-1] 2014-07-29 21:22:01,764 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.AbstractDataSetManager$ScheduledDataSet.execute(AbstractDataSetManager.java:119)
+INFO  [Thread-1] 2014-07-29 21:22:01,764 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-1] 2014-07-29 21:22:01,765 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-1] 2014-07-29 21:22:01,765 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+INFO  [Thread-1] 2014-07-29 21:22:01,765 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-1] 2014-07-29 21:22:01,765 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-1] 2014-07-29 21:22:01,766 repast.simphony.batch.ssh.LocalSession - 	at java.lang.Thread.run(Thread.java:745)
+INFO  [Thread-1] 2014-07-29 21:22:01,766 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.reflect.InvocationTargetException
+INFO  [Thread-1] 2014-07-29 21:22:01,766 repast.simphony.batch.ssh.LocalSession - 	at Collaborative_Content_Creation.User$$FastClassByCGLIB$$80cbf24a.invoke(<generated>)
+INFO  [Thread-1] 2014-07-29 21:22:01,766 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-1] 2014-07-29 21:22:01,767 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.MethodDataSource.get(MethodDataSource.java:97)
+INFO  [Thread-1] 2014-07-29 21:22:01,767 repast.simphony.batch.ssh.LocalSession - 	... 8 more
+INFO  [Thread-1] 2014-07-29 21:22:01,767 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.NoClassDefFoundError: repast/simphony/jung/statistics/RepastJungGraphStatistics
+INFO  [Thread-1] 2014-07-29 21:22:01,767 repast.simphony.batch.ssh.LocalSession - 	at Collaborative_Content_Creation.User.getClusteringCoefficientOfUser(User.java:202)
+INFO  [Thread-1] 2014-07-29 21:22:01,768 repast.simphony.batch.ssh.LocalSession - 	... 11 more
+INFO  [Thread-1] 2014-07-29 21:22:01,768 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.ClassNotFoundException: repast.simphony.jung.statistics.RepastJungGraphStatistics
+INFO  [Thread-1] 2014-07-29 21:22:01,768 repast.simphony.batch.ssh.LocalSession - 	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+INFO  [Thread-1] 2014-07-29 21:22:01,768 repast.simphony.batch.ssh.LocalSession - 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+INFO  [Thread-1] 2014-07-29 21:22:01,768 repast.simphony.batch.ssh.LocalSession - 	at java.security.AccessController.doPrivileged(Native Method)
+INFO  [Thread-1] 2014-07-29 21:22:01,769 repast.simphony.batch.ssh.LocalSession - 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+INFO  [Thread-1] 2014-07-29 21:22:01,769 repast.simphony.batch.ssh.LocalSession - 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+INFO  [Thread-1] 2014-07-29 21:22:01,769 repast.simphony.batch.ssh.LocalSession - 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+INFO  [Thread-1] 2014-07-29 21:22:01,769 repast.simphony.batch.ssh.LocalSession - 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+INFO  [Thread-1] 2014-07-29 21:22:01,770 repast.simphony.batch.ssh.LocalSession - 	... 12 more
+INFO  [AWT-EventQueue-0] 2014-07-30 08:17:40,737 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/ersantasan/Documents/workspace_RePast_mis_lab/Collaborative_Content_Creation/output/config.props
+INFO  [AWT-EventQueue-0] 2014-07-30 08:17:40,925 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	/Users/ersantasan/Documents/workspace_RePast_mis_lab/Collaborative_Content_Creation/batch/batch_params.xml to
+	/var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/unrolledParamFile.txt
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-30 08:17:53,143 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally /var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/ersantasan_localhost2990389468460765236.zip to 
+/var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/simphony_model_1406697469603 ...
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-30 08:17:53,366 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-30 08:17:53,420 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0627
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-30 08:17:53,420 repast.simphony.batch.ssh.LocalSession - Unzipping model /var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/simphony_model_1406697469603/ersantasan_localhost2990389468460765236.zip
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-30 08:17:54,079 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-1] 2014-07-30 08:18:21,660 repast.simphony.batch.ssh.LocalSession - tick: 1.0, Affiliation Total Edge Count: 698.0, User Total Edge Count: 644.0, run: 1, random_seed: -2051771964
+INFO  [Thread-1] 2014-07-30 08:18:21,775 repast.simphony.batch.ssh.LocalSession - tick: 2.0, Affiliation Total Edge Count: 1019.0, User Total Edge Count: 1160.0, run: 1, random_seed: -2051771964
+INFO  [Thread-1] 2014-07-30 08:18:21,906 repast.simphony.batch.ssh.LocalSession - tick: 3.0, Affiliation Total Edge Count: 1270.0, User Total Edge Count: 1682.0, run: 1, random_seed: -2051771964
+INFO  [Thread-1] 2014-07-30 08:18:22,020 repast.simphony.batch.ssh.LocalSession - tick: 4.0, Affiliation Total Edge Count: 1485.0, User Total Edge Count: 2145.0, run: 1, random_seed: -2051771964
+INFO  [Thread-1] 2014-07-30 08:18:22,095 repast.simphony.batch.ssh.LocalSession - tick: 5.0, Affiliation Total Edge Count: 1682.0, User Total Edge Count: 2620.0, run: 1, random_seed: -2051771964
+INFO  [Thread-1] 2014-07-30 08:18:22,164 repast.simphony.batch.ssh.LocalSession - tick: 6.0, Affiliation Total Edge Count: 1825.0, User Total Edge Count: 2980.0, run: 1, random_seed: -2051771964
+INFO  [Thread-1] 2014-07-30 08:18:22,230 repast.simphony.batch.ssh.LocalSession - tick: 7.0, Affiliation Total Edge Count: 1954.0, User Total Edge Count: 3286.0, run: 1, random_seed: -2051771964
+INFO  [Thread-1] 2014-07-30 08:18:22,288 repast.simphony.batch.ssh.LocalSession - tick: 8.0, Affiliation Total Edge Count: 2062.0, User Total Edge Count: 3520.0, run: 1, random_seed: -2051771964
+INFO  [Thread-1] 2014-07-30 08:18:22,341 repast.simphony.batch.ssh.LocalSession - tick: 9.0, Affiliation Total Edge Count: 2165.0, User Total Edge Count: 3754.0, run: 1, random_seed: -2051771964
+INFO  [Thread-1] 2014-07-30 08:18:22,406 repast.simphony.batch.ssh.LocalSession - FATAL [Thread-0] 08:18:22,400 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+INFO  [Thread-1] 2014-07-30 08:18:22,407 repast.simphony.batch.ssh.LocalSession - Current tick (10.0)
+INFO  [Thread-1] 2014-07-30 08:18:22,408 repast.simphony.batch.ssh.LocalSession - repast.simphony.data2.DataException: Error invoking method on object
+INFO  [Thread-1] 2014-07-30 08:18:22,409 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.MethodDataSource.get(MethodDataSource.java:99)
+INFO  [Thread-1] 2014-07-30 08:18:22,409 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.NonAggregateDataSet.record(NonAggregateDataSet.java:78)
+INFO  [Thread-1] 2014-07-30 08:18:22,409 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.AbstractDataSetManager$ScheduledDataSet.execute(AbstractDataSetManager.java:119)
+INFO  [Thread-1] 2014-07-30 08:18:22,410 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-1] 2014-07-30 08:18:22,410 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-1] 2014-07-30 08:18:22,411 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+INFO  [Thread-1] 2014-07-30 08:18:22,411 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-1] 2014-07-30 08:18:22,411 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-1] 2014-07-30 08:18:22,411 repast.simphony.batch.ssh.LocalSession - 	at java.lang.Thread.run(Thread.java:745)
+INFO  [Thread-1] 2014-07-30 08:18:22,412 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.reflect.InvocationTargetException
+INFO  [Thread-1] 2014-07-30 08:18:22,412 repast.simphony.batch.ssh.LocalSession - 	at Collaborative_Content_Creation.User$$FastClassByCGLIB$$80cbf24a.invoke(<generated>)
+INFO  [Thread-1] 2014-07-30 08:18:22,412 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-1] 2014-07-30 08:18:22,413 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.MethodDataSource.get(MethodDataSource.java:97)
+INFO  [Thread-1] 2014-07-30 08:18:22,413 repast.simphony.batch.ssh.LocalSession - 	... 8 more
+INFO  [Thread-1] 2014-07-30 08:18:22,413 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.NoClassDefFoundError: repast/simphony/jung/statistics/RepastJungGraphStatistics
+INFO  [Thread-1] 2014-07-30 08:18:22,413 repast.simphony.batch.ssh.LocalSession - 	at Collaborative_Content_Creation.User.getClusteringCoefficientOfUser(User.java:202)
+INFO  [Thread-1] 2014-07-30 08:18:22,414 repast.simphony.batch.ssh.LocalSession - 	... 11 more
+INFO  [Thread-1] 2014-07-30 08:18:22,414 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.ClassNotFoundException: repast.simphony.jung.statistics.RepastJungGraphStatistics
+INFO  [Thread-1] 2014-07-30 08:18:22,414 repast.simphony.batch.ssh.LocalSession - 	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+INFO  [Thread-1] 2014-07-30 08:18:22,414 repast.simphony.batch.ssh.LocalSession - 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+INFO  [Thread-1] 2014-07-30 08:18:22,415 repast.simphony.batch.ssh.LocalSession - 	at java.security.AccessController.doPrivileged(Native Method)
+INFO  [Thread-1] 2014-07-30 08:18:22,415 repast.simphony.batch.ssh.LocalSession - 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+INFO  [Thread-1] 2014-07-30 08:18:22,415 repast.simphony.batch.ssh.LocalSession - 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+INFO  [Thread-1] 2014-07-30 08:18:22,415 repast.simphony.batch.ssh.LocalSession - 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+INFO  [Thread-1] 2014-07-30 08:18:22,416 repast.simphony.batch.ssh.LocalSession - 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+INFO  [Thread-1] 2014-07-30 08:18:22,416 repast.simphony.batch.ssh.LocalSession - 	... 12 more
+INFO  [AWT-EventQueue-0] 2014-07-30 16:09:13,436 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/ersantasan/Documents/workspace_RePast_mis_lab/Collaborative_Content_Creation/output/config.props
+INFO  [AWT-EventQueue-0] 2014-07-30 16:09:13,598 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	/Users/ersantasan/Documents/workspace_RePast_mis_lab/Collaborative_Content_Creation/batch/batch_params.xml to
+	/var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/unrolledParamFile.txt
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-30 16:09:25,397 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally /var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/ersantasan_localhost7930135736691195094.zip to 
+/var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/simphony_model_1406725761910 ...
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-30 16:09:25,696 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-30 16:09:25,743 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0631
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-30 16:09:25,743 repast.simphony.batch.ssh.LocalSession - Unzipping model /var/folders/q8/0_p4xq3946z5jbxqfky0yqvh0000gn/T/simphony_model_1406725761910/ersantasan_localhost7930135736691195094.zip
+INFO  [SwingWorker-pool-1-thread-1] 2014-07-30 16:09:26,384 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-1] 2014-07-30 16:09:53,115 repast.simphony.batch.ssh.LocalSession - tick: 1.0, Affiliation Total Edge Count: 706.0, User Total Edge Count: 684.0, run: 1, random_seed: -2023480530
+INFO  [Thread-1] 2014-07-30 16:09:53,242 repast.simphony.batch.ssh.LocalSession - tick: 2.0, Affiliation Total Edge Count: 1061.0, User Total Edge Count: 1285.0, run: 1, random_seed: -2023480530
+INFO  [Thread-1] 2014-07-30 16:09:53,354 repast.simphony.batch.ssh.LocalSession - tick: 3.0, Affiliation Total Edge Count: 1335.0, User Total Edge Count: 1910.0, run: 1, random_seed: -2023480530
+INFO  [Thread-1] 2014-07-30 16:09:53,457 repast.simphony.batch.ssh.LocalSession - tick: 4.0, Affiliation Total Edge Count: 1564.0, User Total Edge Count: 2476.0, run: 1, random_seed: -2023480530
+INFO  [Thread-1] 2014-07-30 16:09:53,539 repast.simphony.batch.ssh.LocalSession - tick: 5.0, Affiliation Total Edge Count: 1748.0, User Total Edge Count: 2910.0, run: 1, random_seed: -2023480530
+INFO  [Thread-1] 2014-07-30 16:09:53,614 repast.simphony.batch.ssh.LocalSession - tick: 6.0, Affiliation Total Edge Count: 1894.0, User Total Edge Count: 3318.0, run: 1, random_seed: -2023480530
+INFO  [Thread-1] 2014-07-30 16:09:53,675 repast.simphony.batch.ssh.LocalSession - tick: 7.0, Affiliation Total Edge Count: 2038.0, User Total Edge Count: 3674.0, run: 1, random_seed: -2023480530
+INFO  [Thread-1] 2014-07-30 16:09:53,738 repast.simphony.batch.ssh.LocalSession - tick: 8.0, Affiliation Total Edge Count: 2154.0, User Total Edge Count: 3948.0, run: 1, random_seed: -2023480530
+INFO  [Thread-1] 2014-07-30 16:09:53,789 repast.simphony.batch.ssh.LocalSession - tick: 9.0, Affiliation Total Edge Count: 2248.0, User Total Edge Count: 4136.0, run: 1, random_seed: -2023480530
+INFO  [Thread-1] 2014-07-30 16:09:53,859 repast.simphony.batch.ssh.LocalSession - FATAL [Thread-0] 16:09:53,853 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
+INFO  [Thread-1] 2014-07-30 16:09:53,859 repast.simphony.batch.ssh.LocalSession - Current tick (10.0)
+INFO  [Thread-1] 2014-07-30 16:09:53,860 repast.simphony.batch.ssh.LocalSession - repast.simphony.data2.DataException: Error invoking method on object
+INFO  [Thread-1] 2014-07-30 16:09:53,860 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.MethodDataSource.get(MethodDataSource.java:99)
+INFO  [Thread-1] 2014-07-30 16:09:53,860 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.NonAggregateDataSet.record(NonAggregateDataSet.java:78)
+INFO  [Thread-1] 2014-07-30 16:09:53,860 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.AbstractDataSetManager$ScheduledDataSet.execute(AbstractDataSetManager.java:119)
+INFO  [Thread-1] 2014-07-30 16:09:53,861 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+INFO  [Thread-1] 2014-07-30 16:09:53,861 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+INFO  [Thread-1] 2014-07-30 16:09:53,861 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+INFO  [Thread-1] 2014-07-30 16:09:53,862 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+INFO  [Thread-1] 2014-07-30 16:09:53,862 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+INFO  [Thread-1] 2014-07-30 16:09:53,862 repast.simphony.batch.ssh.LocalSession - 	at java.lang.Thread.run(Thread.java:745)
+INFO  [Thread-1] 2014-07-30 16:09:53,862 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.reflect.InvocationTargetException
+INFO  [Thread-1] 2014-07-30 16:09:53,863 repast.simphony.batch.ssh.LocalSession - 	at Collaborative_Content_Creation.User$$FastClassByCGLIB$$80cbf24a.invoke(<generated>)
+INFO  [Thread-1] 2014-07-30 16:09:53,863 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+INFO  [Thread-1] 2014-07-30 16:09:53,863 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.data2.MethodDataSource.get(MethodDataSource.java:97)
+INFO  [Thread-1] 2014-07-30 16:09:53,863 repast.simphony.batch.ssh.LocalSession - 	... 8 more
+INFO  [Thread-1] 2014-07-30 16:09:53,864 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.NoClassDefFoundError: repast/simphony/jung/statistics/RepastJungGraphStatistics
+INFO  [Thread-1] 2014-07-30 16:09:53,864 repast.simphony.batch.ssh.LocalSession - 	at Collaborative_Content_Creation.User.getClusteringCoefficientOfUser(User.java:202)
+INFO  [Thread-1] 2014-07-30 16:09:53,864 repast.simphony.batch.ssh.LocalSession - 	... 11 more
+INFO  [Thread-1] 2014-07-30 16:09:53,864 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.ClassNotFoundException: repast.simphony.jung.statistics.RepastJungGraphStatistics
+INFO  [Thread-1] 2014-07-30 16:09:53,865 repast.simphony.batch.ssh.LocalSession - 	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+INFO  [Thread-1] 2014-07-30 16:09:53,865 repast.simphony.batch.ssh.LocalSession - 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+INFO  [Thread-1] 2014-07-30 16:09:53,865 repast.simphony.batch.ssh.LocalSession - 	at java.security.AccessController.doPrivileged(Native Method)
+INFO  [Thread-1] 2014-07-30 16:09:53,865 repast.simphony.batch.ssh.LocalSession - 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+INFO  [Thread-1] 2014-07-30 16:09:53,866 repast.simphony.batch.ssh.LocalSession - 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+INFO  [Thread-1] 2014-07-30 16:09:53,866 repast.simphony.batch.ssh.LocalSession - 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+INFO  [Thread-1] 2014-07-30 16:09:53,866 repast.simphony.batch.ssh.LocalSession - 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+INFO  [Thread-1] 2014-07-30 16:09:53,866 repast.simphony.batch.ssh.LocalSession - 	... 12 more
